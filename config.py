@@ -21,4 +21,4 @@ REPORTS_DIR = ROOT / "reports"  # generated HTML reports (kept out of Git)
 # (energy per BIT divided by noise power density).
 # SNR per symbol (Es/N0) = Eb/N0 + 10*log10(bits_per_symbol).
 # For QPSK (2 bits/symbol): Es/N0 = Eb/N0 + 3.01 dB.
-BITS_PER_SYMBOL = {"QPSK": 2}
+BITS_PER_SYMBOL = {"QPSK": 2, "16QAM": 4}
